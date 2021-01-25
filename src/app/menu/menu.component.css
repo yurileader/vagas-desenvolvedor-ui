@@ -1,0 +1,38 @@
+.navbar {
+  padding: 20px 0 10px;
+  background-color:#007cba
+}
+
+.navbar-icone {
+  color: #fff;
+}
+
+.navbar-menu{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 200px;
+  background-color: rgb(65, 63, 63);
+  margin: 0;
+  padding: 0;
+  z-index: 9999;
+  list-style: none;
+}
+
+.navbar-menuitem {
+  margin-top: 50px;
+  padding: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar-menuitem a {
+color: rgb(158, 155, 155);
+text-decoration: none;
+}
+
+.navbar-menuitem a:hover{
+  color: #fff;
+}
+
